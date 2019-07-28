@@ -103,10 +103,74 @@ D49 集成方法 : 混合泛化(Blending) 什麼是集成? 集成方法有哪些
 
 D50 集成方法 : 堆疊泛化(Stacking) Stacking 的設計方向與主要用途是什麼? 通常會使用什麼套件實作?
 
-Kaggle 期中考(D51~D53)
+##Kaggle 期中考(D51~D53)##
+
+##非監督式機器學習##
 
 D54 clustering 1 非監督式機器學習簡介 非監督式學習簡介、應用場景
 
 D55 clustering 2 聚類算法 K-means
 
 D56 K-mean 觀察 : 使用輪廓分析 非監督模型要以特殊評估方法(而非評估函數)來衡量, 今日介紹大家了解並使用其中一種方法 : 輪廓分析
+
+D57 clustering 3 階層分群算法 hierarchical clustering
+
+D58 階層分群法 觀察 : 使用 2D 樣版資料集 非監督評估方法 : 2D樣版資料集是什麼? 如何生成與使用?
+
+D59 dimension reduction 1 降維方法-主成份分析 PCA
+
+D60 PCA 觀察 : 使用手寫辨識資料集 以較複雜的範例 : sklearn版手寫辨識資料集, 展示PCA的降維與資料解釋能力
+
+D61 dimension reduction 2 降維方法-T-SNE TSNE
+
+D62 t-sne 觀察 : 分群與流形還原 什麼是流形還原? 除了 t-sne 之外還有那些常見的流形還原方法?
+
+##深度學習理論與實作##
+
+D63 神經網路介紹 Neural Network 簡介
+
+D64 深度學習體驗 : 模型調整與學習曲線 介紹體驗平台 TensorFlow PlayGround，並初步了解模型的調整
+
+D65 深度學習體驗 : 啟動函數與正規化 在 TF PlayGround 上，體驗進階版的深度學習參數調整
+
+##初探深度學習使用Keras##
+
+D66 Keras 安裝與介紹 如何安裝 Keras 套件
+
+D67 Keras Dataset Keras embedded dataset的介紹與應用
+
+D68 Keras Sequential API 序列模型搭建網路
+
+D69 Keras Module API Keras Module API的介紹與應用
+
+D70 Multi-layer Perception多層感知 MLP簡介
+
+D71 損失函數 損失函數的介紹與應用
+
+D72 啟動函數 啟動函數的介紹與應用
+
+D73 梯度下降Gradient Descent 梯度下降Gradient Descent簡介
+
+D74 Gradient Descent 數學原理 介紹梯度下降的基礎數學原理
+
+D75 BackPropagation 反向式傳播簡介
+
+D76 優化器optimizers 優化器optimizers簡介
+
+D77 訓練神經網路的細節與技巧 - Validation and overfit 檢視並了解 overfit 現象
+
+D78 訓練神經網路前的注意事項 資料是否經過妥善的處理？運算資源為何？超參數的設置是否正確？
+
+D79 訓練神經網路的細節與技巧 - Learning rate effect 比較不同 Learning rate 對訓練過程及結果的差異
+
+D80 [練習 Day] 優化器與學習率的組合與比較 練習時間：搭配不同的優化器與學習率進行神經網路訓練
+
+D81 訓練神經網路的細節與技巧 - Regularization 因應 overfit 的方法概述 - 正規化 (Regularization)
+
+D82 訓練神經網路的細節與技巧 - Dropout 因應 overfit 的方法概述 - 隨機缺失 (Dropout)
+
+D83 訓練神經網路的細節與技巧 - Batch normalization 因應 overfit 的方法概述 - 批次正規化 (Batch Normalization)
+
+D84 [練習 Day] 正規化/機移除/批次標準化的 組合與比較 練習時間：Hyper-parameters 大雜燴
+
+D85 訓練神經網路的細節與技巧 - 使用 callbacks 函數做 earlystop 因應 overfit 的方法概述 - 悔不當初的煞車機制 (EarlyStopping)
