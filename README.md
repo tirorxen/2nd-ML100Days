@@ -174,3 +174,37 @@ D83 訓練神經網路的細節與技巧 - Batch normalization 因應 overfit �
 D84 [練習 Day] 正規化/機移除/批次標準化的 組合與比較 練習時間：Hyper-parameters 大雜燴
 
 D85 訓練神經網路的細節與技巧 - 使用 callbacks 函數做 earlystop 因應 overfit 的方法概述 - 悔不當初的煞車機制 (EarlyStopping)
+
+D86 訓練神經網路的細節與技巧 - 使用 callbacks 函數儲存 model 使用 Keras 內建的 callback 函數儲存訓練完的模型
+
+D87 訓練神經網路的細節與技巧 - 使用 callbacks 函數做 reduce learning rate 使用 Keras 內建的 callback 函數做學習率遞減
+
+D88 訓練神經網路的細節與技巧 - 撰寫自己的 callbacks 函數
+
+D89 訓練神經網路的細節與技巧 - 撰寫自己的 Loss function 瞭解如何撰寫客製化的損失函數，並用在模型訓練上
+
+D90 使用傳統電腦視覺與機器學習進行影像辨識 了解在神經網路發展前，如何使用傳統機器學習演算法處理影像辨識
+
+D91 使用傳統電腦視覺與機器學習進行影像辨識 應用傳統電腦視覺方法＋機器學習進行 CIFAR-10 分類
+
+> 深度學習應用卷積神經網路
+
+D92 卷積神經網路 (Convolution Neural Network, CNN) 簡介 了解CNN的重要性, 以及CNN的組成結構
+
+D93 卷積神經網路架構細節 為什麼比DNN更適合處理影像問題, 以及Keras上如何實作CNN
+
+D94 卷積神經網路 - 卷積(Convolution)層與參數調整 卷積層原理與參數說明
+
+D95 卷積神經網路 - 池化(Pooling)層與參數調整 池化層原理與參數說明
+
+D96 Keras 中的 CNN layers 介紹 Keras 中常用的 CNN layers
+
+D97 使用 CNN 完成 CIFAR-10 資料集 透過 CNN 訓練 CIFAR-10 並比較其與 DNN 的差異
+
+D98 訓練卷積神經網路的細節與技巧 - 處理大量數據 資料無法放進記憶體該如何解決？如何使用 Python 的生成器 generator?
+
+D99 訓練卷積神經網路的細節與技巧 - 處理小量數據 資料太少準確率不高怎麼辦？如何使用資料增強提升準確率？
+
+D100 訓練卷積神經網路的細節與技巧 - 轉移學習 (Transfer learning) 何謂轉移學習 Transfer learning？該如何使用？
+
+##D101-D103：Kaggle期末考##
